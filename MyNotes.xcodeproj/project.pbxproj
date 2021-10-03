@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F0BD7DC2708E2A900780F5C /* AddNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0BD7DB2708E2A900780F5C /* AddNoteViewController.swift */; };
+		5F0BD7E12708E2BF00780F5C /* ViewNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0BD7E02708E2BF00780F5C /* ViewNoteViewController.swift */; };
+		5F0BD7E62709946C00780F5C /* CoreDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0BD7E52709946C00780F5C /* CoreDataHandler.swift */; };
+		5F0BD7EF2709B66800780F5C /* NoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0BD7EE2709B66800780F5C /* NoteTableViewCell.swift */; };
+		5F0BD7F42709BB5E00780F5C /* NoteDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0BD7F32709BB5E00780F5C /* NoteDetailViewController.swift */; };
 		5F643B0327080FAC00328B2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F643B0227080FAC00328B2B /* AppDelegate.swift */; };
 		5F643B0527080FAC00328B2B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F643B0427080FAC00328B2B /* SceneDelegate.swift */; };
-		5F643B0727080FAC00328B2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F643B0627080FAC00328B2B /* ViewController.swift */; };
+		5F643B0727080FAC00328B2B /* QRScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F643B0627080FAC00328B2B /* QRScannerViewController.swift */; };
 		5F643B0A27080FAC00328B2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F643B0827080FAC00328B2B /* Main.storyboard */; };
 		5F643B0D27080FAC00328B2B /* MyNotes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5F643B0B27080FAC00328B2B /* MyNotes.xcdatamodeld */; };
 		5F643B0F27080FAF00328B2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F643B0E27080FAF00328B2B /* Assets.xcassets */; };
 		5F643B1227080FAF00328B2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F643B1027080FAF00328B2B /* LaunchScreen.storyboard */; };
 		5F643B1D27080FB000328B2B /* MyNotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F643B1C27080FB000328B2B /* MyNotesTests.swift */; };
 		5F643B2827080FB000328B2B /* MyNotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F643B2727080FB000328B2B /* MyNotesUITests.swift */; };
+		5F643B4927083CBA00328B2B /* QRData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F643B4827083CBA00328B2B /* QRData.swift */; };
+		5F643B4E2708490E00328B2B /* QRScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F643B4D2708490E00328B2B /* QRScannerView.swift */; };
+		5F643B5627084A6300328B2B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F643B5527084A6300328B2B /* HomeViewController.swift */; };
+		5F643B5B27085BE500328B2B /* ExtentionUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F643B5A27085BE500328B2B /* ExtentionUIViewController.swift */; };
+		5F643B61270893E600328B2B /* RoundButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F643B60270893E600328B2B /* RoundButtonView.swift */; };
+		5F643B782708C77E00328B2B /* UserDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F643B772708C77E00328B2B /* UserDataClass.swift */; };
+		5F643B7D2708C7AB00328B2B /* UserDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F643B7C2708C7AB00328B2B /* UserDataProperties.swift */; };
+		5F643B822708C7C000328B2B /* NoteDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F643B812708C7C000328B2B /* NoteDataClass.swift */; };
+		5F643B872708C7D000328B2B /* NoteDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F643B862708C7D000328B2B /* NoteDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +50,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F0BD7DB2708E2A900780F5C /* AddNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteViewController.swift; sourceTree = "<group>"; };
+		5F0BD7E02708E2BF00780F5C /* ViewNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewNoteViewController.swift; sourceTree = "<group>"; };
+		5F0BD7E52709946C00780F5C /* CoreDataHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHandler.swift; sourceTree = "<group>"; };
+		5F0BD7EE2709B66800780F5C /* NoteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTableViewCell.swift; sourceTree = "<group>"; };
+		5F0BD7F32709BB5E00780F5C /* NoteDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailViewController.swift; sourceTree = "<group>"; };
 		5F643AFF27080FAC00328B2B /* MyNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F643B0227080FAC00328B2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F643B0427080FAC00328B2B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5F643B0627080FAC00328B2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5F643B0627080FAC00328B2B /* QRScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerViewController.swift; sourceTree = "<group>"; };
 		5F643B0927080FAC00328B2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5F643B0C27080FAC00328B2B /* MyNotes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyNotes.xcdatamodel; sourceTree = "<group>"; };
 		5F643B0E27080FAF00328B2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +70,15 @@
 		5F643B2327080FB000328B2B /* MyNotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyNotesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F643B2727080FB000328B2B /* MyNotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNotesUITests.swift; sourceTree = "<group>"; };
 		5F643B2927080FB000328B2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F643B4827083CBA00328B2B /* QRData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRData.swift; sourceTree = "<group>"; };
+		5F643B4D2708490E00328B2B /* QRScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerView.swift; sourceTree = "<group>"; };
+		5F643B5527084A6300328B2B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5F643B5A27085BE500328B2B /* ExtentionUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtentionUIViewController.swift; sourceTree = "<group>"; };
+		5F643B60270893E600328B2B /* RoundButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButtonView.swift; sourceTree = "<group>"; };
+		5F643B772708C77E00328B2B /* UserDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataClass.swift; sourceTree = "<group>"; };
+		5F643B7C2708C7AB00328B2B /* UserDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataProperties.swift; sourceTree = "<group>"; };
+		5F643B812708C7C000328B2B /* NoteDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDataClass.swift; sourceTree = "<group>"; };
+		5F643B862708C7D000328B2B /* NoteDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDataProperties.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +106,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F0BD7EA2709B59900780F5C /* CellView */ = {
+			isa = PBXGroup;
+			children = (
+				5F0BD7EE2709B66800780F5C /* NoteTableViewCell.swift */,
+			);
+			path = CellView;
+			sourceTree = "<group>";
+		};
 		5F643AF627080FAC00328B2B = {
 			isa = PBXGroup;
 			children = (
@@ -102,9 +138,13 @@
 			isa = PBXGroup;
 			children = (
 				5F643B0227080FAC00328B2B /* AppDelegate.swift */,
+				5F643B5F270893B200328B2B /* Component */,
+				5F643B3F270835F100328B2B /* Helper */,
+				5F643B3E270835BC00328B2B /* Extention */,
+				5F643B3B2708351000328B2B /* Controller */,
+				5F643B3A270834F400328B2B /* Model */,
+				5F643B39270834E100328B2B /* View */,
 				5F643B0427080FAC00328B2B /* SceneDelegate.swift */,
-				5F643B0627080FAC00328B2B /* ViewController.swift */,
-				5F643B0827080FAC00328B2B /* Main.storyboard */,
 				5F643B0E27080FAF00328B2B /* Assets.xcassets */,
 				5F643B1027080FAF00328B2B /* LaunchScreen.storyboard */,
 				5F643B1327080FAF00328B2B /* Info.plist */,
@@ -129,6 +169,80 @@
 				5F643B2927080FB000328B2B /* Info.plist */,
 			);
 			path = MyNotesUITests;
+			sourceTree = "<group>";
+		};
+		5F643B39270834E100328B2B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5F0BD7EA2709B59900780F5C /* CellView */,
+				5F643B3C2708352300328B2B /* Storyboard */,
+				5F643B4D2708490E00328B2B /* QRScannerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5F643B3A270834F400328B2B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5F643B692708C5BF00328B2B /* CoreData */,
+				5F643B4827083CBA00328B2B /* QRData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5F643B3B2708351000328B2B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5F643B0627080FAC00328B2B /* QRScannerViewController.swift */,
+				5F643B5527084A6300328B2B /* HomeViewController.swift */,
+				5F0BD7DB2708E2A900780F5C /* AddNoteViewController.swift */,
+				5F0BD7E02708E2BF00780F5C /* ViewNoteViewController.swift */,
+				5F0BD7F32709BB5E00780F5C /* NoteDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5F643B3C2708352300328B2B /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				5F643B0827080FAC00328B2B /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		5F643B3E270835BC00328B2B /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				5F643B5A27085BE500328B2B /* ExtentionUIViewController.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		5F643B3F270835F100328B2B /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				5F0BD7E52709946C00780F5C /* CoreDataHandler.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		5F643B5F270893B200328B2B /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				5F643B60270893E600328B2B /* RoundButtonView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		5F643B692708C5BF00328B2B /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				5F643B772708C77E00328B2B /* UserDataClass.swift */,
+				5F643B7C2708C7AB00328B2B /* UserDataProperties.swift */,
+				5F643B812708C7C000328B2B /* NoteDataClass.swift */,
+				5F643B862708C7D000328B2B /* NoteDataProperties.swift */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,10 +375,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F643B0727080FAC00328B2B /* ViewController.swift in Sources */,
+				5F0BD7DC2708E2A900780F5C /* AddNoteViewController.swift in Sources */,
+				5F0BD7E62709946C00780F5C /* CoreDataHandler.swift in Sources */,
+				5F643B0727080FAC00328B2B /* QRScannerViewController.swift in Sources */,
+				5F643B7D2708C7AB00328B2B /* UserDataProperties.swift in Sources */,
 				5F643B0327080FAC00328B2B /* AppDelegate.swift in Sources */,
 				5F643B0527080FAC00328B2B /* SceneDelegate.swift in Sources */,
+				5F643B822708C7C000328B2B /* NoteDataClass.swift in Sources */,
 				5F643B0D27080FAC00328B2B /* MyNotes.xcdatamodeld in Sources */,
+				5F643B4E2708490E00328B2B /* QRScannerView.swift in Sources */,
+				5F643B872708C7D000328B2B /* NoteDataProperties.swift in Sources */,
+				5F643B782708C77E00328B2B /* UserDataClass.swift in Sources */,
+				5F0BD7F42709BB5E00780F5C /* NoteDetailViewController.swift in Sources */,
+				5F0BD7E12708E2BF00780F5C /* ViewNoteViewController.swift in Sources */,
+				5F643B5B27085BE500328B2B /* ExtentionUIViewController.swift in Sources */,
+				5F643B5627084A6300328B2B /* HomeViewController.swift in Sources */,
+				5F643B61270893E600328B2B /* RoundButtonView.swift in Sources */,
+				5F643B4927083CBA00328B2B /* QRData.swift in Sources */,
+				5F0BD7EF2709B66800780F5C /* NoteTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,7 +486,7 @@
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_NO_COMMON_BLOCKS = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -418,7 +546,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_NO_COMMON_BLOCKS = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
